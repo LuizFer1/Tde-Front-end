@@ -105,16 +105,13 @@ body{
   border-radius: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   scale: 0.95;
 }
 .card-image{
   border-radius: 25px;
-  justify-content: center;
-  display: flex;
+  align-self: flex-start;
 }
 .card-image img{
-  border-radius: 25px;
   height: 450px;
   width: 400px;
   margin: 0 auto;
@@ -125,12 +122,14 @@ body{
   max-width: 400px;
 }
 .card-text p {
+  margin-bottom: 20px;
   display: inline;
 }
 .card-text h2{
   text-transform: capitalize;
   font-weight: bolder;
   font-size: 20px;
+  padding: 1rem;
 }
 .card-text-rockstar{
   font-size: 12px;
