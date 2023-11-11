@@ -1,0 +1,171 @@
+body{
+  color: white;
+  font-family: sans-serif;
+}
+header{
+  height: 75px;
+  background-color: black;
+}
+.home{
+  background-image: url('img/background-gta.png');
+  height: 600px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.home-container-text{
+  height: 100%;
+  width: 40%;
+  background: linear-gradient(to right,rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.home-container-text div{
+  padding: 0 3rem;
+  margin-bottom: 4rem;
+}
+.home-container-text div h1{
+  font-size: 2rem;
+  color: white;
+  width: 400px;
+  margin-bottom: 10px;
+}
+.home-container-text div p{
+  font-size: 1.3rem;
+  width: 400px;
+}
+.home-container-text p a{
+  padding: 1rem 2.5rem;
+  color: white;
+  border: 1px solid white;
+  margin: 0 0px 0 60px;
+  border-radius: 5px;
+}
+.secao{
+  background-image: url('img/background-section.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
+.secao .texto-secao h1{
+  font-size: 2.5rem;
+  padding: 2rem 0;
+  font-weight: 800;
+}
+.secao .texto-secao p{
+  margin: 0 0 50px 0;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 150%;
+}
+.imagem-secao{
+  background-image: url('img/section1-image.png');
+  height: 550px;
+  width: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.texto-secao{
+  width: 500px;
+}
+.secao2{
+  background-image: url('img/background-secao2.jpg');
+  flex-direction: row;
+}
+.secao2 .imagem-secao{
+  background-image: url('img/image-secao2.png');
+}
+.secao4, .secao5, .secao6{
+  background-color: rgb(21, 21, 21);
+  background-image: none;
+  height: 600px;
+}
+.secao4 .imagem-secao{
+  background-image: url('img/sectio4-image.jpg');
+  height: 400px;
+}
+.secao5, .secao7, .secao9{
+  flex-direction: row;
+
+}
+.secao5, .secao7, .secao9, .secao6, .secao8, .secao10, .buy-now, .titulo{
+  background-color: rgb(21, 21, 21);
+  background-image: none;
+}
+.secao5 .imagem-secao, .secao6 .imagem-secao, .secao8 .imagem-secao, .secao10 .imagem-secao, .secao9 .imagem-secao, .secao7 .imagem-secao{
+  height: 400px;
+  width: 720px;
+}
+.secao5 .imagem-secao{
+  background-image: url('img/section5-image.jpg');
+
+}
+.secao6 .imagem-secao{
+  background-image: url('img/section6-image.jpg');
+
+}
+.secao7 .imagem-secao{
+  background-image: url('img/section7-imagem.jpg');
+
+}
+.secao8 .imagem-secao{
+  background-image: url('img/section8-imagem.jpg');
+
+}
+.secao9 .imagem-secao{
+  background-image: url('img/section9-imagem.jpg');
+
+}
+.secao10 .imagem-secao{
+  background-image: url('img/section10-image.jpg');
+}
+.titulo{
+  padding: 0rem 2rem;
+  font-size: 25px;
+  font-weight: 900;
+
+}
+.buy-now{
+  display: flex;
+  justify-content: start;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 1000px;
+}.card-buy{
+  height: 750px;
+  width: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-buy .card-image{
+  align-self: center;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+.card-buy .card-text {
+  padding: 0 2rem;
+}
+.card-buy .card-text p{
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.card-buy a{
+  width: 80%;
+  text-align: center;
+  padding: 1.5rem 3rem;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  align-self: center;
+}
